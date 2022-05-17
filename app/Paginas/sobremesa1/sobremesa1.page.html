@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Check Food</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card>
+  <ion-card-header color="primary">
+    <ion-card-title>Combo 1</ion-card-title>
+    <ion-card-subtitle>por R$ 15,90</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF9X47s0w09YksIl9_BHzwNz9hfqqtsZQeFA&usqp=CAU"></ion-img>
+  </ion-card-content>
+  <ion-card-content>Um delicioso brounnie de chocolate em formato circular.</ion-card-content>
+</ion-card>
+
+<ion-button color="secondary" expand="block" (click)="abrirPagina('somebresa1')">Quero Pedir</ion-button>
+
+<ion-button color="secondary" expand="block" (click)="abrirPagina('sobremesas')">Voltar</ion-button>
+
+</ion-content>

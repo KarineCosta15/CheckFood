@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Check Food</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card>
+  <ion-card-header color="primary">
+    <ion-card-title>Promoção do dia</ion-card-title>
+    <ion-card-subtitle>Combo 4 por R$ 29,90</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShP-h3WrrN3eHGfEk21_R5aRH66eO3V9gssvlupNotSNNEmY9G-e0xqNfH23E8wmJg1Ag&usqp=CAU"></ion-img>
+  </ion-card-content>
+</ion-card>
+
+<ion-button color="secondary" expand="block" (click)="abrirPagina('promo')">Peça Agora</ion-button>
+
+<ion-card>
+  <ion-card-header color="primary">
+    <ion-card-title>Cardápio</ion-card-title>
+    <ion-card-subtitle>Venha escolher sua comida</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8k58Sm3u2EJr5N3Y7tLUsH1Gh83rgLarpKQ&usqp=CAU"></ion-img>
+  </ion-card-content>
+</ion-card>
+
+<ion-button color="secondary" expand="block" (click)="abrirPagina('lista')">Clique Aqui</ion-button>
+
+</ion-content>

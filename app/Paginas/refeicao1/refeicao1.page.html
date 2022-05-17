@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Check Food</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card>
+  <ion-card-header color="primary">
+    <ion-card-title>Refeição 1</ion-card-title>
+    <ion-card-subtitle>por R$ 22,90</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-img src= "https://emroma.com/wp-content/uploads/2016/09/pasta-2.jpg"></ion-img>
+  </ion-card-content>
+  <ion-card-content>Um delicioso espagueti alho e óleo com lascas de bacon.</ion-card-content>
+</ion-card>
+
+<ion-button color="secondary" expand="block" (click)="abrirPagina('refeicao1')">Quero Pedir</ion-button>
+
+<ion-button color="secondary" expand="block" (click)="abrirPagina('principal')">Voltar</ion-button>
+
+</ion-content>
